@@ -41,6 +41,8 @@ function Album(props) {
       <p style={styles.albumStyles}>{props.albumName}</p>
       <p style={styles.originStyles}>{props.origin}</p>
       <p style={styles.originStyles}>{props.year}</p>
+      <p style={styles.originStyles}>{props.rating}</p>
+
     </div>
   );
 }
@@ -50,7 +52,8 @@ Album.propTypes = {
   artistName: PropTypes.string.isRequired,
   albumName: PropTypes.string.isRequired,
   origin: PropTypes.string.isRequired,
-  year: PropTypes.string.isRequired
+  year: PropTypes.string.isRequired,
+  rating: PropTypes.string.isRequired
 };
 
 export default Album;

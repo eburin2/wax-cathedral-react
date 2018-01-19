@@ -5,9 +5,9 @@ import wipers from '../assets/images/wipers.jpeg';
 import bigBlack from '../assets/images/atomizer.jpg';
 
 const masterAlbumList = [
-  {imageCover: maple, artistName:'U.S. Maple', albumName: 'Talker', origin: 'Chicago, Illinois', year: '1999'},
-  {imageCover: wipers, artistName:'Wipers', albumName: 'Is This Real?', origin: 'Portland, Oregon', year: '1980'},
-  {imageCover: bigBlack, artistName:'Big Black', albumName: 'Atomizer', origin: 'Chicago, Illinois', year: '1986'}
+  {imageCover: maple, artistName:'U.S. Maple', albumName: 'Talker', origin: 'Chicago, Illinois', year: '1999', rating: '5 stars'},
+  {imageCover: wipers, artistName:'Wipers', albumName: 'Is This Real?', origin: 'Portland, Oregon', year: '1980', rating: '4 stars' },
+  {imageCover: bigBlack, artistName:'Big Black', albumName: 'Atomizer', origin: 'Chicago, Illinois', year: '1986', rating: '4 stars'}
 ];
 
 
@@ -28,6 +28,7 @@ function AlbumList(){
           albumName = {album.albumName}
           origin = {album.origin}
           year = {album.year}
+          rating = {album.rating}
 
           key = {index}
 
