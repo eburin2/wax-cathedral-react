@@ -7,10 +7,10 @@ function Body() {
     flexStyle: {
       display: 'flex',
       flexDirection: 'row',
-      backgroundColor: '#26499F',
-      width: '100vw',
-      height: '1200px',
-      marginRight: '10px'
+      flexWrap: 'wrap',
+      backgroundColor: '#fff',
+      width: '90vw',
+      height: '100%'
     }
   };
   return(
