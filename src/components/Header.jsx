@@ -19,6 +19,7 @@ function Header(){
       marginTop: '40px',
       color: '#26499F'
     }
+
   };
 
   return (

@@ -5,8 +5,9 @@ import PropTypes from 'prop-types';
 function Album(props) {
 
   const styles={
+
     bodyStyles: {
-      width: '60%',
+      width: '50%',
       marginLeft: '15px',
       marginRight: '5px'
     },
@@ -14,11 +15,9 @@ function Album(props) {
     coverStyles:{
       width: '200px',
       height: '200px',
-      display: 'flex',
-      flexDirection: 'row',
-      alignItems: 'flex-start',
       marginTop: '20px',
       marginLeft: '10px',
+      fontFamily: 'futura',
 
     },
 
@@ -26,19 +25,22 @@ function Album(props) {
       textAlign: 'center',
       fontSize: '24px',
       color: '#50E3C2',
-      fontWeight: 'bold'
+      fontWeight: 'bold',
+      fontFamily: 'futura'
     },
 
     albumStyles:{
       textAlign: 'center',
       fontSize: '20px',
-      color: '#50E3C2'
+      color: '#50E3C2',
+      fontFamily: 'futura'
     },
 
     originStyles:{
       textAlign: 'center',
       fontSize: '20px',
-      color: '#50E3C2'
+      color: '#50E3C2',
+      fontFamily: 'futura'
 
     }
   };
@@ -49,7 +51,7 @@ function Album(props) {
     <div style={styles.bodyStyles}>
       <style jsx>{`
           img:hover {
-            border: 20px solid #50E3C2;
+            border: 10px solid #50E3C2;
           }
 
           `}</style>
