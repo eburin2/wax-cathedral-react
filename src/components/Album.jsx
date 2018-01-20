@@ -62,12 +62,12 @@ function Album(props) {
 
     <div style={styles.bodyStyles}>
       <style jsx>{`
-          img:hover {
+          .cover:hover {
             border: 10px solid #50E3C2;
           }
 
           `}</style>
-      <img style={styles.coverStyles} src={props.imageCover}/>
+      <img className="cover" style={styles.coverStyles} src={props.imageCover}/>
       <p style={styles.nameStyles}>{props.artistName}</p>
       <p style={styles.albumStyles}>{props.albumName}</p>
       <p style={styles.originStyles}>{props.origin}</p>

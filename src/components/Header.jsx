@@ -20,7 +20,9 @@ function Header(){
     },
 
     logoStyle: {
-      marginLeft: '40px'
+      marginLeft: '40px',
+      marginBottom: '5px',
+      marginTop: '5px'
     }
 
 
