@@ -14,8 +14,8 @@ function App(){
     <div>
       <Header/>
       <Switch>
-        <Route exact path='/body' component={Body} />
-        <Route exact path='/albumlist' component={AlbumList} />
+        // <Route exact path='/body' component={Body} />
+        <Route exact path='/' component={AlbumList} />
         <Route component={Error404} />
 
       </Switch>

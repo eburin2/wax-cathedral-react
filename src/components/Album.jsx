@@ -66,6 +66,7 @@ function Album(props) {
             border: 10px solid #50E3C2;
           }
 
+
           `}</style>
       <img className="cover" style={styles.coverStyles} src={props.imageCover}/>
       <p style={styles.nameStyles}>{props.artistName}</p>
