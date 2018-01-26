@@ -33,15 +33,17 @@ function Album(props) {
       textAlign: 'center',
       fontSize: '20px',
       color: '#26499F',
-      fontFamily: 'futura'
+      fontFamily: 'futura',
+      marginTop: '15px'
     },
 
     originStyles:{
-      marginTop: '-10px',
+      marginTop: '10px',
       textAlign: 'center',
       fontSize: '20px',
       color: '#26499F',
-      fontFamily: 'futura'
+      fontFamily: 'futura',
+      marginBottom: '15px'
 
     }
   };
