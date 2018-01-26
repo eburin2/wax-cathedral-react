@@ -13,6 +13,8 @@ const masterAlbumList = [
   {imageCover: bigBlack, artistName:'Big Black', albumName: 'Atomizer', origin: 'Chicago, Illinois', year: '1986', rating: '4 stars'},
   {imageCover: blueOysterCult, artistName:'Blue Oyster Cult', albumName: 'Tyranny and Mutation', origin: 'Long Island, New York', year: '1973', rating: '5 stars'},
   {imageCover: gentleGiant, artistName:'Gentle Giant', albumName: 'Power and the Glory', origin: 'London, England', year: '1974', rating: '3 stars'},
+  {imageCover: wire, artistName:'Wire', albumName: 'A Bell is a Cup', origin: 'London, England', year: '1988', rating: '4 stars'},
+  {imageCover: wire, artistName:'Wire', albumName: 'A Bell is a Cup', origin: 'London, England', year: '1988', rating: '4 stars'},
   {imageCover: wire, artistName:'Wire', albumName: 'A Bell is a Cup', origin: 'London, England', year: '1988', rating: '4 stars'}
 ];
 
@@ -20,11 +22,16 @@ const masterAlbumList = [
 function AlbumList(){
   const styles={
     albumStyle: {
+      width: '80vw',
       display: 'flex',
       flexDirection: 'row',
-      margin: '25px',
+      flexWrap: 'wrap',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      marginTop: '200px'
     }
   };
+
   return(
     <div style={styles.albumStyle}>
       { masterAlbumList.map((album, index) =>

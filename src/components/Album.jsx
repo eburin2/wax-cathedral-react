@@ -6,28 +6,16 @@ function Album(props) {
 
   const styles={
 
-    container: {
-      Width: '100%',
-      display: 'flex',
-      flexDirection: 'column'
-      // border: '2px solid black'
-    },
 
     bodyStyles: {
-      display: 'flex',
-      flexDirection: 'column',
-      width: '50%',
-      marginLeft: '15px',
-      marginRight: '15px'
-      // border: '2px solid black'
+      justifyContent: 'space-around'
     },
 
     coverStyles:{
       width: '200px',
       height: '200px',
       marginTop: '10px',
-      marginLeft: '0px',
-      marginRight: '0px',
+      marginLeft: '20px',
       fontFamily: 'futura'
 
     },
@@ -61,9 +49,14 @@ function Album(props) {
 
 
     <div style={styles.bodyStyles}>
-      <style jsx>{`
+      <style jsx global>{`
           .cover:hover {
             border: 10px solid #50E3C2;
+          }
+
+          * {
+            box-sizing: border-box;
+            margin: 0px;
           }
 
 
