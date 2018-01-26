@@ -1,5 +1,4 @@
 import React from 'react';
-import Prop-Types from './prop-types';
 import Album from './Album';
 import maple from '../assets/images/maple.jpg';
 import wipers from '../assets/images/wipers.jpeg';
@@ -22,37 +21,24 @@ const masterAlbumList = [
   {imageCover: Shinymen, artistName:'Shiny Men', albumName: 's/t', origin: 'London, England', year: '1981', rating: '4 stars'},
   {imageCover: wire, artistName:'Wire', albumName: 'A Bell is a Cup', origin: 'London, England', year: '1988', rating: '4 stars'},
   {imageCover: valhalla, artistName:'Dennis Weise', albumName: 'Valhalla', origin: 'San Diego, California', year: '1979', rating: '5 stars'},
-  {imageCover: destruction, artistName:'Destruction', albumName: 'Infernal Overkill', origin: 'Weil am Rhein, Germany', year: '1985', rating: '4 stars'}
+  {imageCover: destruction, artistName:'Destruction', albumName: 'Infernal Overkill', origin: 'Weil am Rhein Germany', year: '1985', rating: '4 stars'}
 ];
 
-const styles={
-  albumStyle: {
-    width: '80vw',
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    marginTop: '200px'
-  }
-};
 
-class AlbumList extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      search: ''
-    };
-  }
-
-  updateSearch(event) {
-    this.setState({search:event.target.value})
-  }
-
-  render()
+function AlbumList(){
+  const styles={
+    albumStyle: {
+      width: '80vw',
+      display: 'flex',
+      flexDirection: 'row',
+      flexWrap: 'wrap',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      marginTop: '200px'
+    }
+  };
 
   return(
-
     <div style={styles.albumStyle}>
       { masterAlbumList.map((album, index) =>
         <Album
@@ -66,11 +52,8 @@ class AlbumList extends React.Component {
           key = {index}
 
         />)}
-      );
-      <input type="text"
-        value={this.state.search}
-        onChange={this.updateSearch.bind(this)}  />
     </div>
+  );
 }
 
 export default AlbumList;
