@@ -25,8 +25,10 @@ class SearchBar extends React.Component {
 
   updateSearch(search) {
     this.setState({ search });
-    this.props.onUpdateSearch(search);
+    this.props.updateSearch(search);
   }
 }
+
+
 
 export default SearchBar;

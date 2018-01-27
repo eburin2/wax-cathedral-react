@@ -4,25 +4,44 @@ import elliot from '../assets/images/elliot.jpg';
 function Profile() {
   const myProfileStyles = {
     profileContainer: {
-      width: '150px',
-      height: '50px',
+      width: '500px',
+      height: '275px',
       display: 'flex',
-      flexDirection: 'row'
+      flexDirection: 'row',
+      marginRight: 'auto',
+      marginLeft: '150px',
+      justifyContent: 'center',
+      alignItems: 'center'
     },
 
     elliot: {
       width: '150px',
       height: '150px',
       borderRadius: '100%',
-      marginLeft: '170px',
-      marginTop: '50px',
+      margin: 'auto'
     },
 
-    textStyles: {
+    nameContainer: {
+      width: '300px',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-start',
+      AlignContent: 'flex-start'
+    },
+
+    nameStyles: {
       fontFamily: 'futura',
       fontSize: '18px',
-      marginTop: '80px',
-      marginLeft: '30px',
+      marginTop: '140px',
+      marginLeft: '20px',
+      color: '#26499F'
+    },
+
+    cityStyles: {
+      marginTop: '5px',
+      marginBottom: '100px',
+      fontFamily: 'futura',
+      fontSize: '16px',
       color: '#26499F'
     }
 
@@ -33,7 +52,10 @@ function Profile() {
 
     <div style={myProfileStyles.profileContainer}>
       <img style={myProfileStyles.elliot} src={elliot} />
-      <p style={myProfileStyles.textStyles}>Elliot Burin</p>
+      <div style={myProfileStyles.nameContainer}>
+        <p style={myProfileStyles.nameStyles}>Elliot Burin</p>
+        <p style={myProfileStyles.cityStyles}>Portland, Oregon</p>
+      </div>
     </div>
   );
 }

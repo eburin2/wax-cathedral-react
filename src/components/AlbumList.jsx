@@ -17,7 +17,7 @@ const masterAlbumList = [
   {imageCover: bigBlack, artistName:'Big Black', albumName: 'Atomizer', origin: 'Chicago, Illinois', year: '1986', rating: '4 stars'},
   {imageCover: blueOysterCult, artistName:'Blue Oyster Cult', albumName: 'Tyranny and Mutation', origin: 'Long Island, New York', year: '1973', rating: '5 stars'},
   {imageCover: gentleGiant, artistName:'Gentle Giant', albumName: 'Power and the Glory', origin: 'London, England', year: '1974', rating: '3 stars'},
-  {imageCover: alarcen, artistName:'Jean ', albumName: 's/t', origin: 'France', year: '1978', rating: '4 stars'},
+  {imageCover: alarcen, artistName:'Jean Pierre Alarcen', albumName: 's/t', origin: 'France', year: '1978', rating: '4 stars'},
   {imageCover: Shinymen, artistName:'Shiny Men', albumName: 's/t', origin: 'London, England', year: '1981', rating: '4 stars'},
   {imageCover: wire, artistName:'Wire', albumName: 'A Bell is a Cup', origin: 'London, England', year: '1988', rating: '4 stars'},
   {imageCover: valhalla, artistName:'Dennis Weise', albumName: 'Valhalla', origin: 'San Diego, California', year: '1979', rating: '5 stars'},
@@ -28,7 +28,7 @@ const masterAlbumList = [
 function AlbumList(){
   const styles={
     albumStyle: {
-      width: '80vw',
+      width: '83vw',
       display: 'flex',
       flexDirection: 'row',
       flexWrap: 'wrap',
