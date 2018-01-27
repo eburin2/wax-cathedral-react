@@ -56,6 +56,21 @@ function Album(props) {
             border: 10px solid #50E3C2;
           }
 
+
+          input {
+            width: 200px;
+            height: 30px;
+            border: 4px solid black;
+            margin-left: 1040px;
+            margin-top: 200px;
+            color: #26499F;
+            font-weight: bold;
+            font-size: 18px;
+
+          }
+
+
+
           * {
             box-sizing: border-box;
             margin: 0px;

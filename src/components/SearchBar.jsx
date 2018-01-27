@@ -19,7 +19,7 @@ class SearchBar extends React.Component {
       <div>
         <input
           value={this.state.search}
-          onChange={event => console.log(event.target.value)}
+          onChange={event => this.updateSearch(event.target.value)}
         />
       </div>
     );
