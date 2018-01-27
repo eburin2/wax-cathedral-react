@@ -1,19 +1,16 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
+
 
 class SearchBar extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {search: ''};
+    this.state = { search: '' };
   }
 
-  updateSearch(props) {
-    this.setState({search});
-    this.props.updateSearch(search);
-  }
+
 
   render(){
-
 
     return(
       <div>
@@ -24,6 +21,11 @@ class SearchBar extends React.Component {
       </div>
     );
 
+  }
+
+  updateSearch(search) {
+    this.setState({ search });
+    this.props.onUpdateSearch(search);
   }
 }
 
