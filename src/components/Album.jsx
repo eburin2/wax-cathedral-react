@@ -59,7 +59,7 @@ function Album(props) {
           input {
             width: 200px;
             height: 30px;
-            border: 4px solid black;
+            border: 4px solid #50E3C2;
             margin-top: 10px;
             color: #26499F;
             font-weight: bold;
@@ -78,7 +78,7 @@ function Album(props) {
             display: flex;
             justifyContent: flex-end;
             margin-left: auto;
-            margin-right: 150px;
+            margin-right: 155px;
           }
 
 
