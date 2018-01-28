@@ -34,7 +34,7 @@ function AlbumList(){
       flexWrap: 'wrap',
       marginLeft: 'auto',
       marginRight: 'auto',
-      marginTop: '25px'
+      marginTop: '-25px'
     }
   };
 

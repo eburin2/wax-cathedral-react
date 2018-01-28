@@ -60,7 +60,8 @@ function Album(props) {
             width: 200px;
             height: 30px;
             border: 4px solid #50E3C2;
-            margin-top: 10px;
+            margin-top: -20px;
+            margin-bottom: 50px;
             color: #26499F;
             font-weight: bold;
             font-size: 14px;
