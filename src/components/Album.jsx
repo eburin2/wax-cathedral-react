@@ -60,12 +60,25 @@ function Album(props) {
             width: 200px;
             height: 30px;
             border: 4px solid black;
-            margin-left: 1090px;
             margin-top: 10px;
             color: #26499F;
             font-weight: bold;
             font-size: 14px;
 
+          }
+
+          .mainContainer {
+            width: 100vw;
+            margin: auto;
+          }
+
+          .search {
+            width: 15vw;
+            align-content: flex-end;
+            display: flex;
+            justifyContent: flex-end;
+            margin-left: auto;
+            margin-right: 150px;
           }
 
 
