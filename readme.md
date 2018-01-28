@@ -12,7 +12,7 @@ Todays project was to map out our capstone's component structure which also incl
 
 1-26-18
 
-Today's project was to determine where statefulness should reside and what the structure should look like in my capstone project.  First, I brainstormed for a bit and reviewed this weeks material and then I determined that state should live within two realms of my project, one in my search bar component and the other in my form component.  I spent most of the day experimenting with the component structure I had in my search bar but didn't have a ton of success getting it to function but I feel I'm in a good place right now.  
+Today's project was to determine where statefulness should reside and what the structure should look like in my capstone project.  First, I brainstormed for a bit and reviewed this weeks material and then I determined that state should live within two realms of my project, one in my search bar component and the other in my form component.  I spent most of the day experimenting with the component structure I had in my search bar component but didn't have a ton of success getting it to function but I feel I'm in a good place right now. For the search bar I feel state should reside within the search bar and app component and that props should be passed through the album and album list components.  I'm still trying to ascertain the understanding of statefulness within a project, it seems to me that state can get very complicated very quickly.   
 
 I still need to apply the same practices to my form page as well which unfortunately I did not get to today.  
 
