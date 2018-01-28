@@ -10,6 +10,20 @@ import alarcen from '../assets/images/alarcen.jpg';
 import Shinymen from '../assets/images/shinymen.jpg';
 import valhalla from '../assets/images/valhalla.jpg';
 import destruction from '../assets/images/destruction.jpg';
+import walker from '../assets/images/walker.jpeg';
+import blitz from '../assets/images/blitz.jpg';
+import dadadogs from '../assets/images/dadadogs.jpg';
+import watson from '../assets/images/watson.jpg';
+import jerusalem from '../assets/images/jerusalem.jpg';
+import lungfish from '../assets/images/lungfish.jpg';
+import exodus from '../assets/images/exodus.jpg';
+import yellowman from '../assets/images/yellowman.jpg';
+import judas from '../assets/images/judas.jpg';
+import rez from '../assets/images/rez.jpg';
+import thor from '../assets/images/thor.jpg';
+
+
+
 
 const masterAlbumList = [
   {imageCover: maple, artistName:'U.S. Maple', albumName: 'Talker', origin: 'Chicago, Illinois', year: '1999', rating: '5 stars'},
@@ -21,7 +35,18 @@ const masterAlbumList = [
   {imageCover: Shinymen, artistName:'Shiny Men', albumName: 's/t', origin: 'London, England', year: '1981', rating: '4 stars'},
   {imageCover: wire, artistName:'Wire', albumName: 'A Bell is a Cup', origin: 'London, England', year: '1988', rating: '4 stars'},
   {imageCover: valhalla, artistName:'Dennis Weise', albumName: 'Valhalla', origin: 'San Diego, California', year: '1979', rating: '5 stars'},
-  {imageCover: destruction, artistName:'Destruction', albumName: 'Infernal Overkill', origin: 'Weil am Rhein Germany', year: '1985', rating: '4 stars'}
+  {imageCover: destruction, artistName:'Destruction', albumName: 'Infernal Overkill', origin: 'Weil am Rhein Germany', year: '1985', rating: '4 stars'},
+  {imageCover: walker, artistName:'Scott Walker', albumName: 'Climate of Hunter', origin: 'UK', year: '1984', rating: '5 stars'},
+  {imageCover: blitz, artistName:'Blitz', albumName: 'Second Empire Justice', origin: 'UK', year: '1983', rating: '4 stars'},
+  {imageCover: dadadogs, artistName:'Dadadogs', albumName: 'Eats Meats Wets', origin: 'Germany', year: '1983', rating: '4 stars'},
+  {imageCover: watson, artistName:'Johnny Watson', albumName: 's/t', origin: 'Houston, Texas', year: '1963', rating: '5 stars'},
+  {imageCover: jerusalem, artistName:'Jerusalem', albumName: 's/t', origin: 'UK', year: '1972', rating: '4 stars'},
+  {imageCover: lungfish, artistName:'Lungfish', albumName: 'Necrophones', origin: 'Baltimore, Maryland', year: '2000', rating: '4 stars'},
+  {imageCover: exodus, artistName:'Exodus', albumName: 'Bonded by Blood', origin: 'Oakland, California', year: '1985', rating: '5 stars'},
+  {imageCover: yellowman, artistName:'Yellowman', albumName: 'Mister Yellowman', origin: 'Kingston, Jamaica', year: '1982', rating: '5 stars'},
+  {imageCover: judas, artistName:'Judas Priest', albumName: 'Rocka Rolla', origin: 'UK', year: '1974', rating: '5 stars'},
+  {imageCover: rez, artistName:'The Residents', albumName: 'The Big Bubble', origin: 'San Francisco, California', year: '1985', rating: '4 stars'},
+  {imageCover: thor, artistName:'Thors Hammer', albumName: 'If You Knew', origin: 'Iceland', year: '1965-67', rating: '4 stars'}
 ];
 
 
