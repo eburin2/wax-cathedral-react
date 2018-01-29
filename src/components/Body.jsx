@@ -6,13 +6,17 @@ import SearchBar from './SearchBar';
 
 
 function Body() {
-  const styles={
-    flexStyle: {
-      display: 'flex',
-    }
-  };
+
   return(
-    <div style={styles.flexStyle}>
+    <div className="bodyContainer">
+      <style jsx global>{`
+        .bodyContainer {
+          width: 83vw;
+          margin: auto;
+        }
+
+
+      `}</style>
       <Profile/>
       <SearchBar/>
       <AlbumList/>

@@ -35,6 +35,12 @@ import millie from '../assets/images/millie.jpg';
 import deadrider from '../assets/images/deadrider.jpg';
 import calvert from '../assets/images/calvert.jpg';
 import amon from '../assets/images/amon.jpg';
+import lift from '../assets/images/lift.jpg';
+import diamondhead from '../assets/images/diamondhead.jpg';
+import wisdom from '../assets/images/wisdom.jpg';
+import pretty from '../assets/images/pretty.jpg';
+import carpenter from '../assets/images/halloweenIII.jpg';
+
 
 
 
@@ -76,7 +82,12 @@ const masterAlbumList = [
   {imageCover: millie, artistName:'Millie Jackson', albumName: 'Caught Up', origin: 'Thompson, Georgia', year: '1974', rating: '4 stars'},
   {imageCover: deadrider, artistName:'D. Rider', albumName: 's/t', origin: 'Chicago, Illinois', year: '2009', rating: '5 stars'},
   {imageCover: calvert, artistName:'Robert Calvert', albumName: 'Test Tube Conceived', origin: 'UK', year: '1986', rating: '4 stars'},
-  {imageCover: amon, artistName:'Amon Duul II', albumName: 'Hi-Jack', origin: 'Germany', year: '1986', rating: '4 stars'}
+  {imageCover: amon, artistName:'Amon Duul II', albumName: 'Hi-Jack', origin: 'Germany', year: '1986', rating: '4 stars'},
+  {imageCover: lift, artistName:'Lift', albumName: 'Caverns of Your Brain', origin: 'New Orleans, Louisiana', year: '1977', rating: '4 stars'},
+  {imageCover: diamondhead, artistName:'Diamond Head', albumName: 'Lightning to the Nations', origin: 'UK', year: '1980', rating: '4 stars'},
+  {imageCover: wisdom, artistName:'Danny Elfman', albumName: 'Wisdom O.S.T.', origin: 'Los Angeles, California', year: '1986', rating: '4 stars'},
+  {imageCover: pretty, artistName:'Pretty Things', albumName: 'Parachute', origin: 'UK', year: '1970', rating: '5 stars'},
+  {imageCover: carpenter, artistName:'John Carpenter', albumName: 'Halloween III O.S.T.', origin: 'UK', year: '1982', rating: '5 stars'}
 ];
 
 

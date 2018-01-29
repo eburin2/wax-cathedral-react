@@ -14,11 +14,8 @@ function App(){
   return(
     <div className="mainContainer">
       <Header/>
-      <Profile/>
-      <SearchBar/>
       <Switch>
         <Route exact path='/body' component={Body} />
-        // <Route exact path='/' component={AlbumList} />
         <Route component={Error404} />
 
       </Switch>
