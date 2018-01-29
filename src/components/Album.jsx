@@ -18,7 +18,7 @@ function Album(props) {
 
     nameStyles:{
       textAlign: 'center',
-      fontSize: '20px',
+      fontSize: '24px',
       color: '#26499F',
       fontWeight: 'bold',
       fontFamily: 'futura',
@@ -31,7 +31,7 @@ function Album(props) {
       fontSize: '20px',
       color: '#26499F',
       fontFamily: 'futura',
-      marginTop: '15px',
+      marginTop: '10px',
       marginLeft: '22px'
     },
 
@@ -57,29 +57,29 @@ function Album(props) {
 
 
           input {
-            width: 200px;
+            width: 250px;
             height: 30px;
             border: 4px solid #50E3C2;
-            margin-top: -20px;
-            margin-bottom: 50px;
             color: #26499F;
             font-weight: bold;
             font-size: 14px;
+            margin-right: 20px;
 
           }
 
           .mainContainer {
-            width: 100vw;
+            width: 83vw;
             margin: auto;
           }
 
           .search {
-            width: 15vw;
-            align-content: flex-end;
+            width: 8vw;
             display: flex;
+            align-content: flex-end;
             justifyContent: flex-end;
+            margin-bottom: 100px;
+            margin-right: 10vw;
             margin-left: auto;
-            margin-right: 155px;
           }
 
 

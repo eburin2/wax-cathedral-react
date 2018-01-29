@@ -4,12 +4,10 @@ import elliot from '../assets/images/elliot.jpg';
 function Profile() {
   const myProfileStyles = {
     profileContainer: {
-      width: '500px',
-      height: '275px',
+      maxWidth: '16vw',
       display: 'flex',
       flexDirection: 'row',
-      marginRight: 'auto',
-      marginLeft: '150px',
+      marginLeft: '6vw',
       justifyContent: 'center',
       alignItems: 'center'
     },
@@ -18,7 +16,6 @@ function Profile() {
       width: '150px',
       height: '150px',
       borderRadius: '100%',
-      margin: 'auto'
     },
 
     nameContainer: {

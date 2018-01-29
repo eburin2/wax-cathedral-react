@@ -25,6 +25,18 @@ import arthur from '../assets/images/arthur.jpg';
 import td from '../assets/images/td.jpg';
 import xinr from '../assets/images/xinr.jpg';
 import wazmo from '../assets/images/wazmo.jpg';
+import gignoux from '../assets/images/gignoux.jpg';
+import cloven from '../assets/images/cloven.jpg';
+import ironMaiden from '../assets/images/iron-maiden.jpg';
+import motorhead from '../assets/images/motorhead.jpg';
+import polvo from '../assets/images/polvo.jpg';
+import ulmer from '../assets/images/ulmer.jpg';
+import millie from '../assets/images/millie.jpg';
+import deadrider from '../assets/images/deadrider.jpg';
+import calvert from '../assets/images/calvert.jpg';
+import amon from '../assets/images/amon.jpg';
+
+
 
 
 
@@ -54,7 +66,17 @@ const masterAlbumList = [
   {imageCover: arthur, artistName:'Arthur Brown', albumName: 'Galactic Zoo Dossier', origin: 'UK', year: '1971', rating: '5 stars'},
   {imageCover: td, artistName:'Tangerine Dream', albumName: 'Wavelength', origin: 'Germany', year: '1983', rating: '5 stars'},
   {imageCover: xinr, artistName:'Xinr', albumName: 's/t', origin: 'Portland, Oregon', year: '1984', rating: '4 stars'},
-  {imageCover: wazmo, artistName:'Wazmo Nariz', albumName: 'Tell Me How to Live', origin: 'Chicago, Illinois', year: '1981', rating: '4 stars'}
+  {imageCover: wazmo, artistName:'Wazmo Nariz', albumName: 'Tell Me How to Live', origin: 'Chicago, Illinois', year: '1981', rating: '4 stars'},
+  {imageCover: gignoux, artistName:'Gignoux', albumName: 's/t', origin: 'S.F., California', year: '1980', rating: '4 stars'},
+  {imageCover: cloven, artistName:'Cloven Hoof', albumName: 's/t', origin: 'UK', year: '1984', rating: '5 stars'},
+  {imageCover: ironMaiden, artistName:'Iron Maiden', albumName: 's/t', origin: 'UK', year: '1980', rating: '4 stars'},
+  {imageCover: motorhead, artistName:'Motorhead', albumName: 'Bomber', origin: 'UK', year: '1979', rating: '5 stars'},
+  {imageCover: polvo, artistName:'Polvo', albumName: 'Todays Active Lifestyles', origin: 'Chapel Hill, N.C.', year: '1992', rating: '4 stars'},
+  {imageCover: ulmer, artistName:'James Blood Ulmer', albumName: 'Free Lancing', origin: 'St. Matthews, S.C.', year: '1981', rating: '4 stars'},
+  {imageCover: millie, artistName:'Millie Jackson', albumName: 'Caught Up', origin: 'Thompson, Georgia', year: '1974', rating: '4 stars'},
+  {imageCover: deadrider, artistName:'D. Rider', albumName: 's/t', origin: 'Chicago, Illinois', year: '2009', rating: '5 stars'},
+  {imageCover: calvert, artistName:'Robert Calvert', albumName: 'Test Tube Conceived', origin: 'UK', year: '1986', rating: '4 stars'},
+  {imageCover: amon, artistName:'Amon Duul II', albumName: 'Hi-Jack', origin: 'Germany', year: '1986', rating: '4 stars'}
 ];
 
 
