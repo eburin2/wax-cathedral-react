@@ -21,6 +21,10 @@ import yellowman from '../assets/images/yellowman.jpg';
 import judas from '../assets/images/judas.jpg';
 import rez from '../assets/images/rez.jpg';
 import thor from '../assets/images/thor.jpg';
+import arthur from '../assets/images/arthur.jpg';
+import td from '../assets/images/td.jpg';
+import xinr from '../assets/images/xinr.jpg';
+import wazmo from '../assets/images/wazmo.jpg';
 
 
 
@@ -46,7 +50,11 @@ const masterAlbumList = [
   {imageCover: yellowman, artistName:'Yellowman', albumName: 'Mister Yellowman', origin: 'Kingston, Jamaica', year: '1982', rating: '5 stars'},
   {imageCover: judas, artistName:'Judas Priest', albumName: 'Rocka Rolla', origin: 'UK', year: '1974', rating: '5 stars'},
   {imageCover: rez, artistName:'The Residents', albumName: 'The Big Bubble', origin: 'San Francisco, California', year: '1985', rating: '4 stars'},
-  {imageCover: thor, artistName:'Thors Hammer', albumName: 'If You Knew', origin: 'Iceland', year: '1965-67', rating: '4 stars'}
+  {imageCover: thor, artistName:'Thors Hammer', albumName: 'If You Knew', origin: 'Iceland', year: '1965-67', rating: '4 stars'},
+  {imageCover: arthur, artistName:'Arthur Brown', albumName: 'Galactic Zoo Dossier', origin: 'UK', year: '1971', rating: '5 stars'},
+  {imageCover: td, artistName:'Tangerine Dream', albumName: 'Wavelength', origin: 'Germany', year: '1983', rating: '5 stars'},
+  {imageCover: xinr, artistName:'Xinr', albumName: 's/t', origin: 'Portland, Oregon', year: '1984', rating: '4 stars'},
+  {imageCover: wazmo, artistName:'Wazmo Nariz', albumName: 'Tell Me How to Live', origin: 'Chicago, Illinois', year: '1981', rating: '4 stars'}
 ];
 
 
