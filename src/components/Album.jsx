@@ -49,48 +49,7 @@ function Album(props) {
   return (
 
 
-    <div style={styles.bodyStyles}>
-      <style jsx global>{`
-          .cover:hover {
-            border: 10px solid #50E3C2;
-          }
-
-
-          input {
-            width: 250px;
-            height: 30px;
-            border: 4px solid #50E3C2;
-            color: #26499F;
-            font-weight: bold;
-            font-size: 14px;
-            margin-right: 20px;
-
-          }
-
-          .mainContainer {
-            width: 83vw;
-            margin: auto;
-          }
-
-          .search {
-            width: 8vw;
-            display: flex;
-            align-content: flex-end;
-            justifyContent: flex-end;
-            margin-bottom: 100px;
-            margin-right: 10vw;
-            margin-left: auto;
-          }
-
-
-
-          * {
-            box-sizing: border-box;
-            margin: 0px;
-          }
-
-
-          `}</style>
+    <div>
       <img className="cover" style={styles.coverStyles} src={props.imageCover}/>
       <p style={styles.nameStyles}>{props.artistName}</p>
       <p style={styles.albumStyles}>{props.albumName}</p>
