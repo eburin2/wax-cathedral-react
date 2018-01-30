@@ -4,22 +4,26 @@ import elliot from '../assets/images/elliot.jpg';
 function Profile() {
   const myProfileStyles = {
     profileContainer: {
-      maxWidth: '16vw',
+      maxWidth: '25vw',
+      height: '200px',
       display: 'flex',
       flexDirection: 'row',
       marginLeft: '6vw',
       justifyContent: 'center',
-      alignItems: 'center'
+      alignItems: 'center',
+      marginTop:  '75px',
+      marginBottom: '50px'
     },
 
     elliot: {
       width: '150px',
       height: '150px',
       borderRadius: '100%',
+      marginLeft: '-30px'
     },
 
     nameContainer: {
-      width: '300px',
+      width: '16vw',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'flex-start',
@@ -28,9 +32,10 @@ function Profile() {
 
     nameStyles: {
       fontFamily: 'futura',
-      fontSize: '18px',
-      marginTop: '140px',
-      marginLeft: '20px',
+      fontSize: '20px',
+      fontWeight: 'bold',
+      marginTop: '120px',
+      marginLeft: '25px',
       color: '#26499F'
     },
 
@@ -39,7 +44,8 @@ function Profile() {
       marginBottom: '100px',
       fontFamily: 'futura',
       fontSize: '16px',
-      color: '#26499F'
+      color: '#26499F',
+      marginLeft: '20px'
     }
 
   };
