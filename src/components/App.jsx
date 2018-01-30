@@ -1,11 +1,9 @@
 import React from 'react';
 import Header from './Header';
 import Body from './Body';
-import Profile from './Profile';
-import AlbumList from './AlbumList';
 import Error404 from './Error404';
-import SearchBar from './SearchBar';
 import { Switch, Route } from 'react-router-dom';
+import Usmaple from './Maple';
 
 
 
@@ -17,6 +15,7 @@ function App(){
       <Switch>
         <Route exact path='/body' component={Body} />
         <Route component={Error404} />
+        <Route path='/maple' component={Usmaple}/>
 
       </Switch>
     </div>

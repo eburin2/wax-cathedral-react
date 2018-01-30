@@ -40,6 +40,8 @@ import diamondhead from '../assets/images/diamondhead.jpg';
 import wisdom from '../assets/images/wisdom.jpg';
 import pretty from '../assets/images/pretty.jpg';
 import carpenter from '../assets/images/halloweenIII.jpg';
+import { Link } from 'react-router-dom';
+
 
 
 
