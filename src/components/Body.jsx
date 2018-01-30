@@ -29,6 +29,7 @@ function Body() {
           font-weight: bold;
           font-size: 14px;
           margin-right: 20px;
+          margin-top: -100px;
 
         }
 
@@ -42,8 +43,8 @@ function Body() {
           display: flex;
           align-content: flex-end;
           justifyContent: flex-end;
-          margin-bottom: 100px;
-          margin-right: 10vw;
+          margin-bottom: 50px;
+          margin-right: 9vw;
           margin-left: auto;
         }
 

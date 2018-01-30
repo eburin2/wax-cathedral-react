@@ -44,11 +44,6 @@ import { Link } from 'react-router-dom';
 
 
 
-
-
-
-
-
 const masterAlbumList = [
   {imageCover: maple, artistName:'U.S. Maple', albumName: 'Talker', origin: 'Chicago, Illinois', year: '1999', rating: '5 stars'},
   {imageCover: wipers, artistName:'Wipers', albumName: 'Is This Real?', origin: 'Portland, Oregon', year: '1980', rating: '4 stars' },
@@ -102,7 +97,7 @@ function AlbumList(){
       flexWrap: 'wrap',
       marginLeft: 'auto',
       marginRight: 'auto',
-      marginTop: '-25px'
+      marginTop: '-50px'
     }
   };
 

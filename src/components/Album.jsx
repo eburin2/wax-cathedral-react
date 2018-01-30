@@ -18,7 +18,7 @@ function Album(props) {
 
     nameStyles:{
       textAlign: 'center',
-      fontSize: '24px',
+      fontSize: '20px',
       color: '#26499F',
       fontWeight: 'bold',
       fontFamily: 'futura',
