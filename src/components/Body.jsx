@@ -3,7 +3,9 @@ import Profile from './Profile';
 import AlbumList from './AlbumList';
 import SearchBar from './SearchBar';
 
- // import masterAlbumList from './../defaultState';
+
+
+// import masterAlbumList from './../defaultState';
 
 import maple from '../assets/images/maple.jpg';
 import wipers from '../assets/images/wipers.jpg';
@@ -49,7 +51,7 @@ import carpenter from '../assets/images/halloweenIII.jpg';
 
 
 
-class Body extends React.component {
+class Body extends React.Component {
 
   constructor(props) {
     super(props);
@@ -153,11 +155,11 @@ class Body extends React.component {
         `}</style>
         <Profile/>
         <SearchBar/>
-        <AlbumList/>
+        <AlbumList
+          albumList={this.state.masterAlbumList}/>
       </div>
 
-    );
-  }
+    );}
 }
 
 export default Body;

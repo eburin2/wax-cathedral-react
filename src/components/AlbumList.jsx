@@ -3,7 +3,8 @@ import Album from './Album';
 import PropTypes from 'prop-types';
 
 
-function AlbumList(){
+function AlbumList(props){
+  console.log(props.albumList[0].origin);
   const styles={
     albumStyle: {
       width: '83vw',
@@ -17,10 +18,9 @@ function AlbumList(){
   };
 
 
-
   return(
     <div style={styles.albumStyle}>
-      { AlbumList.map((album, index) =>
+      {props.albumList.map((album, index) =>
         <Album
           imageCover = {album.imageCover}
           artistName = {album.artistName}
@@ -28,10 +28,9 @@ function AlbumList(){
           origin = {album.origin}
           year = {album.year}
           rating = {album.rating}
+          key = {index}/>
 
-          key = {index}
-
-        />)}
+      )}
     </div>
   );
 }
@@ -39,4 +38,5 @@ function AlbumList(){
 AlbumList.propTypes = {
   albumList: PropTypes.array
 };
+
 export default AlbumList;
