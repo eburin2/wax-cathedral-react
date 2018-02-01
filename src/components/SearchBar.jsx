@@ -1,30 +1,39 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+// import { v4 } from 'uuid';
 
 
-class SearchBar extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { search: '' };
+function SearchBar(props){
+  let _origin = null;
+  console.log(origin);
+
+  function handleSearchFormSubmission(event) {
   }
 
-  render(){
-    return(
-      <div className="search">
+
+
+
+  return(
+    <div className="search">
+      <form onSubmit={handleSearchFormSubmission}>
         <input
-          value={this.state.search}
-          onChange={event => this.updateSearch(event.target.value)}
-        />
-      </div>
-    );
+          type='text'
+          id='origin'
+          placeholder='origin'
+          ref={(input) => {_origin = input;}}/>
 
-  }
+        <button type='submit'>Submit</button>
+      </form>
+    </div>
+  );
 
-  updateSearch(search) {
-    this.setState({ search });
-    this.props.updateSearch(search);
-  }
 }
 
 
+
+
+SearchBar.propTypes = {
+  onNewSearchUpdate: PropTypes.func
+};
 
 export default SearchBar;

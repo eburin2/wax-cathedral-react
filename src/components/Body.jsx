@@ -91,7 +91,7 @@ class Body extends React.Component {
         {imageCover: millie, artistName:'Millie Jackson', albumName: 'Caught Up', origin: 'Thompson, Georgia', year: '1974', rating: '4 stars'},
         {imageCover: deadrider, artistName:'D. Rider', albumName: 's/t', origin: 'Chicago, Illinois', year: '2009', rating: '5 stars'},
         {imageCover: calvert, artistName:'Robert Calvert', albumName: 'Test Tube Conceived', origin: 'UK', year: '1986', rating: '4 stars'},
-        {imageCover: amon, artistName:'Amon Duul II', albumName: 'Hi-Jack', origin: 'Germany', year: '1986', rating: '4 stars'},
+        {imageCover: amon, artistName:'Amon Duul II', albumName: 'Hi-Jack', origin: 'Germany', year: '1974', rating: '4 stars'},
         {imageCover: lift, artistName:'Lift', albumName: 'Caverns of Your Brain', origin: 'New Orleans, Louisiana', year: '1977', rating: '4 stars'},
         {imageCover: diamondhead, artistName:'Diamond Head', albumName: 'Lightning to the Nations', origin: 'UK', year: '1980', rating: '4 stars'},
         {imageCover: wisdom, artistName:'Danny Elfman', albumName: 'Wisdom O.S.T.', origin: 'Los Angeles, California', year: '1986', rating: '4 stars'},
@@ -118,7 +118,7 @@ class Body extends React.Component {
 
 
           input {
-            width: 250px;
+            width: 200px;
             height: 30px;
             border: 4px solid #50E3C2;
             color: #26499F;
@@ -126,7 +126,17 @@ class Body extends React.Component {
             font-size: 14px;
             margin-right: 20px;
             margin-top: -100px;
+            margin-bottom: 20px;
+            text-align: center;
 
+          }
+
+          button {
+            margin-left: 70px;
+            margin-bottom: 20px;
+            width: 75px;
+            border: 4px solid #50E3C2;
+            border-radius: 8px;
           }
 
           .mainContainer {
