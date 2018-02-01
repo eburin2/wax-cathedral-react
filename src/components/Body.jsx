@@ -82,7 +82,7 @@ class Body extends React.Component {
         {imageCover: td, artistName:'Tangerine Dream', albumName: 'Wavelength', origin: 'Germany', year: '1983', rating: '5 stars'},
         {imageCover: xinr, artistName:'Xinr', albumName: 's/t', origin: 'Portland, Oregon', year: '1984', rating: '4 stars'},
         {imageCover: wazmo, artistName:'Wazmo Nariz', albumName: 'Tell Me How to Live', origin: 'Chicago, Illinois', year: '1981', rating: '4 stars'},
-        {imageCover: gignoux, artistName:'Gignoux', albumName: 's/t', origin: 'S.F., California', year: '1980', rating: '4 stars'},
+        {imageCover: gignoux, artistName:'Gignoux', albumName: 'The Broadway Boys', origin: 'S.F., California', year: '1980', rating: '4 stars'},
         {imageCover: cloven, artistName:'Cloven Hoof', albumName: 's/t', origin: 'UK', year: '1984', rating: '5 stars'},
         {imageCover: ironMaiden, artistName:'Iron Maiden', albumName: 's/t', origin: 'UK', year: '1980', rating: '4 stars'},
         {imageCover: motorhead, artistName:'Motorhead', albumName: 'Bomber', origin: 'UK', year: '1979', rating: '5 stars'},

@@ -1,7 +1,7 @@
 import React from 'react';
 import elliot from '../assets/images/elliot.jpg';
 
-function Profile() {
+function Profile(props) {
   const myProfileStyles = {
     profileContainer: {
       maxWidth: '25vw',

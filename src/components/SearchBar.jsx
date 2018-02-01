@@ -21,7 +21,7 @@ class SearchBar extends React.Component {
 
   updateSearch(search) {
     this.setState({ search });
-    this.props.updateSearch(props);
+    this.props.updateSearch(search);
   }
 }
 
